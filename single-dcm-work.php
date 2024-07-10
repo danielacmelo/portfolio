@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts
+ * The template for displaying all single works cpt
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -24,7 +24,7 @@ get_header();
                 <div class="entry-content">
                 
                     <article>
-                            <?php the_post_thumbnail('large'); ?>
+                            <?php the_post_thumbnail('landscape-projects'); ?>
                             <?php the_content(); ?>
                     </article>    
 
