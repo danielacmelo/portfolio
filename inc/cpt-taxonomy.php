@@ -41,7 +41,7 @@ function dcm_register_custom_post_types() {
         'query_var'          => true,
         'rewrite'            => array( 'slug' => 'works' ),
         'capability_type'    => 'post',
-        'has_archive'        => false,
+        'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
         'menu_icon'          => 'dashicons-archive',
