@@ -47,8 +47,8 @@ function dcm_theme_setup() {
 	add_theme_support( 'post-thumbnails' );
 
       // Custom image Crop Sizes 
-      add_image_size( 'landscape-about', 330, 270, true );
-      add_image_size( 'landscape-projects', 530, 430, true );
+      add_image_size( 'landscape_about', 330, 270, true );
+      add_image_size( 'landscape_projects', 530, 430, true );
 
 
 	// This theme uses wp_nav_menu() in one location.

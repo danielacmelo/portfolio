@@ -39,7 +39,7 @@
                     $tools_and_skills = get_field('tools_and_skills');
                     // Check if $tools_and_skills is an array and convert it to a string
                     if (is_array($tools_and_skills)) {
-                    $tools_and_skills = implode(' - ', $tools_and_skills);
+                    $tools_and_skills = implode(' | ', $tools_and_skills);
                     }
                     ?>
                     <article class="works">
