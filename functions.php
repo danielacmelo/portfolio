@@ -145,7 +145,7 @@ add_action( 'widgets_init', 'dcm_theme_widgets_init' );
 function dcm_theme_scripts() {
     wp_enqueue_style( 
         'dcm-googlefonts', //unique handle
-        'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap', // url
+        'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap', // url
         array(), // dependencies
         null // version, must be set to null for Google Fonts to load multiple font families 
     );
