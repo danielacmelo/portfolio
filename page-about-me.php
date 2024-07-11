@@ -30,7 +30,7 @@
     <?php
             if ( function_exists( 'get_field' ) ) {
             $about_images = get_field('images');
-            $size = 'landscape-about';
+            $size = 'landscape_about';
             $caption = wp_get_attachment_caption( $about_images );
 
             if ($about_images && is_array($about_images)) :

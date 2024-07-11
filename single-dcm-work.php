@@ -24,7 +24,7 @@ get_header();
                 <div class="entry-content">
                 
                     <article>
-                            <?php the_post_thumbnail('landscape-projects'); ?>
+                            <?php the_post_thumbnail('landscape_projects'); ?>
                             <?php the_content(); ?>
                     </article>    
 

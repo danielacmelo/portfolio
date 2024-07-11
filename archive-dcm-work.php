@@ -44,7 +44,7 @@
                     ?>
                     <article class="works">
                                 <a href="<?php the_permalink(); ?>">
-                                    <?php the_post_thumbnail('landscape-projects'); ?>
+                                    <?php the_post_thumbnail('landscape_projects'); ?>
                                     <h2><?php the_title(); ?></h2>
                                     <h3><?php echo esc_html($tools_and_skills); ?></h3>
                                 </a>
